@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="13e9d112-b961-40f2-b891-70e22e75cf7e" name="vps456458.ovh.net">
+        <fileTransfer rootFolder="/var/www/html/login" accessType="SFTP" host="vps-beac204e.vps.ovh.net" port="22" sshConfigId="af87a9fb-110b-468f-86ad-a25e8bae0d54" sshConfig="root@vps-beac204e.vps.ovh.net:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

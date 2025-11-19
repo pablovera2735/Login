@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Registration Form</h2>
+    <form action="registrarUsuario.php" method="post">
+        <!-- Full Name -->
+        <div class="form-group">
+            <label for="logname">Full Name:</label>
+            <input type="text" name="logname" id="logname" required>
+        </div>
+
+        <!-- Email -->
+        <div class="form-group">
+            <label for="logemail">Email:</label>
+            <input type="email" name="logemail" id="logemail" required>
+        </div>
+
+        <!-- Password -->
+        <div class="form-group">
+            <label for="logpass">Password:</label>
+            <input type="password" name="logpass" id="logpass" required>
+        </div>
+
+        <!-- Photo Upload -->
+        <div class="form-group">
+            <label for="user_photo">Profile Photo:</label>
+            <input type="file" name="user_photo" id="user_photo" accept="image/*" required>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit">Register</button>
+    </form>
+</div>
+
+</body>
+</html>
